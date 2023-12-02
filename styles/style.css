@@ -1,0 +1,122 @@
+/* Estilos para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para encabezados */
+h1 {
+  color: #333;
+  padding: 20px;
+}
+
+h2 {
+  color: #555;
+  padding: 20px;
+}
+
+/* Estilos para formularios */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+a {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 15px;
+  text-decoration: none;
+} 
+
+/* Estilos adicionales cuando el enlace está en estado hover */
+a:hover {
+  background-color: #0056b3;
+}
+
+input{
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+input:hover {
+  background-color: #0056b3;
+  margin-top: 15px;
+}
+
+.botones {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.botones:hover {
+  background-color: #0056b3;
+  margin-top: 15px;
+}
+
+
+/* Estilos para tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  margin-bottom: 70px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+p {
+  padding: 10px;
+}

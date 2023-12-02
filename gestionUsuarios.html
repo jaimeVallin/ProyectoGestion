@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <head>
+    <title>Gestión de Usuarios</title>
+  </head>
+  <body>
+    <h1>Gestión de Usuarios</h1>
+
+    <h2>Usuarios Registrados</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre de Usuario</th>
+          <th>Rol</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>admin</td>
+          <td>Administrador</td>
+          <td><a href="#">Editar</a> | <a href="#">Eliminar</a></td>
+        </tr>
+        <!-- Agregar más filas para otros usuarios registrados -->
+      </tbody>
+    </table>
+
+    <h2>Agregar Nuevo Usuario</h2>
+    <form>
+      <label for="nombreUsuario">Nombre de Usuario:</label>
+      <input
+        type="text"
+        id="nombreUsuario"
+        name="nombreUsuario"
+        required
+      /><br />
+
+      <label for="contrasena">Contraseña:</label>
+      <input type="password" id="contrasena" name="contrasena" required /><br />
+
+      <label for="rol">Rol:</label>
+      <select id="rol" name="rol" required>
+        <option value="Administrador">Administrador</option>
+        <option value="Profesor">Profesor</option>
+        <option value="Usuario Autorizado">Usuario Autorizado</option></select
+      ><br />
+
+      <input type="submit" value="Guardar Usuario" />
+    </form>
+  </body>
+</html>

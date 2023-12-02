@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles/style-alumnos.css" />
+    <title>Registro de Alumnos</title>
+  </head>
+  <body>
+    <h1>Registro de Alumnos</h1>
+
+    <!-- Botón con JavaScript para ir a "expedientesdeCalificaciones.html" -->
+
+    <form action="model/procesar_registro_alumno.php" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required /><br />
+
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" required /><br />
+
+      <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+      <input type="date" id="fechaNacimiento" name="fechaNacimiento" /><br />
+
+      <label for="direccion">Dirección:</label>
+      <input type="text" id="direccion" name="direccion" /><br />
+
+      <input type="submit" value="Guardar" />
+      <input
+        type="button"
+        value="Expedientes de Calificaciones"
+        onclick="window.location.href='calificaciones.php'"
+      />
+    </form>
+  </body>
+</html>
